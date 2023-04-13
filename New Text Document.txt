@@ -1,0 +1,181 @@
+1) WHAT IS DEVELOPMENT
+-How WEBSITES WORK
+-FRONT AND BACK END 
+-CODE EDITOR
+
+2) BASIC FRONT- END
+-HTML
+-CSS
+-JAVASCRIPT
+
+3) TOOLS
+-PACKAGE MANAGERS
+-BUILD TOOLS
+-VERSION CONTROL
+
+4a DETAILED FRONT-END
+-SASS
+-RESPONSIVE DESIGN
+-JAVA SCRIPT FRAMEWORKS
+
+4b BASIC BACK-END (SERVER SIDE)
+-SERVER
+-SERVER PROGRAMMING LANGUAGE
+-DATABASE
+
+SCRIPT		
+WEB DEV
+Web: It refers to websites, web pages or anything that works over the internet.
+Development: It refers to building and improving the application from scratch.
+
+-all websites at  
+
+the most basic are just a bunch of files that are 
+stored on a computer called a server this server 
+
+-
+
+is connected to the Internet you can then load 
+that website through a web browser on your computer or on your mobile phone it is also called the client 
+
+-in this  
+
+situation so every time you're on the Internet 
+you the client are loading/requesting data from the server  
+
+as well as the server submitting data back to the client this 
+back and forth between the client and the server  
+
+is the basis of the internet
+
+WEB DEVELOPER
+-behind this web development we will know who are the persons who build and what are their roles.
+
+-Now, Web developer roles fall into 3 categories. 
+Front end Web developer
+Back End Web Developer	
+
+front end means that you're dealing  
+
+mainly with the client-side.
+it's called  front 
+end because it's what you can see in the browser
+
+on the other hand back end web developer is the part of the website 
+that we can't really see but it handles a lot of  
+
+the logic and functionality that is necessary for 
+everything to work.
+and Full-stack developers has a broad range of skills and knowledge, including both front-end and back-end development.
+
+It is necessary to know your role and your expertise. It will help the team to make the work fast and organized especially when working on a big projects.
+
+SOURCE CODE EDITOR
+when you build a website the  
+
+most essential tool that we need to use is a source code editor
+the most 
+popular code editor is vs code it's fast free easy to use and you can  
+
+customize it with themes and extensions. other code editors are sublime text Atom and vim 
+
+
+now that we've covered some of the 
+broader concepts of what web development is let's  
+
+get more into the details starting with the 
+front end 
+FRONT END DEV
+the front end of a website is made up  
+
+of three types of files HTML CSS and JavaScript 
+these files are what is loaded in the browser on  
+
+a client-side
+
+
+HTML
+HTML contains all the  
+
+content on the page and it uses tags to denote 
+different types of content for example you can use  
+
+tags to create headline titles paragraphs bulleted 
+lists images and so on.
+
+CSS
+CSS or cascading style sheets lets you style that 
+HTML content so it looks nice and fancy you can  
+
+add colors custom fonts and lay out the elements 
+of your website.
+
+JAVASCRIPT
+javascript  
+
+is a programming language that was designed to 
+run in the browser. You can make  
+
+your website respond to different inputs from the 
+user or other sources for example yung animations and yung back to top button nakapag we click it, it will go back to the top of the page.
+
+ 
+
+as we mentioned HTML CSS and JavaScript are the 
+basic building blocks of front-end web development  
+
+in addition to them there are a frameworks for CSS and JS that will help us to develop quicker from scratch.
+
+Sass (Syntactically Awesome Style Sheets) is an extension of CSS. Style sheet languages control where and how text appears on a webpage, from frame size and color to menu positions. SASS will help your code to be organized and less headache.
+
+Responsible Design ensures that your styles will 
+look good and compatible on all devices such as desktops tablets and  
+
+mobile phones.
+
+JS FRAMEWORKS
+
+there are 3 frameworks React, angular and Vue 
+
+React is the most popular frame work, it is created by facebook
+Angluar is the first big framework an open-source front-end framework that is mainly used to develop single-page web applications and it is created by google
+VueJS is used to design the user interface layer
+
+BACK END
+
+the backend web development or server side of web development is  
+
+made up of three main components the server 
+a server-side programming language and the  
+
+database 
+
+Servers
+Centralized because website files, back end code and all data are stored all together on a server.
+
+While the decentralized type uses third party services like google cloud, microsoft azure, amazon web services.
+
+Server side Programming language
+on the server you need to use  
+
+a programming language to write the functions 
+and logic for your website the server then  
+
+compiles your code and conveys the result back 
+to the client.
+
+DAtabase
+ some 
+examples of how data is utilized on websites  
+
+are if you have a contact form on your website 
+you could build the form so that every time  
+
+someone submits the form their data is saved on 
+to your database you can also store user logins  
+
+on the database and write logic in the server-side 
+language to handle checking and authenticating the  
+
+logins
+
