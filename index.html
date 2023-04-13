@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LSI Test Research and Development</title>
+  <link rel="stylesheet" type="text/css" href="css/style2.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+  
+</head>
+
+<body>
+  
+    <header>
+      <title>Course Category</title>
+
+      <div class= "main">
+
+        <div class="logo">
+          <img src="ROHM_logo.png">
+        </div>
+<section id="home">
+        <div class="title">
+          <h0>ROHM ELECTRONICS PHILIPPINES INC.</h0>
+        </div>
+        </section>
+</div>
+</header>
+
+
+    <div id="navigation">
+      <nav>
+        <ul>
+          <li><a href="login1.html">LOG-IN</a></li>
+          <li><a href="#testresearch">TEST R&D</a></li>
+          <li><a href="#about">ABOUT</a></li>    
+          <li><a href="#contactus">CONTACT US</a></li>
+        </ul>
+      </nav>
+    </div>
+
+        <fb>
+          <li><a href="watchvid.html" target="blank">WATCH VIDEO</a></li>
+        </fb>
+
+        <div class="slider">
+          <div class="slides">
+
+            <!--radio button start-->
+            <input type="radio" name="radio-btn" id="radio1"> 
+            <input type="radio" name="radio-btn" id="radio2"> 
+            <input type="radio" name="radio-btn" id="radio3"> 
+            <!--radio buton end-->
+
+            <!--slides images start-->
+            <div class="slide first">
+              <img src="REPI.jpg" alt="">
+            </div>  
+            <div class="slide">
+              <img src="TRD.png" alt="">
+            </div>
+            <div class="slide">
+              <img src="COCO.jpg" alt="">
+            </div>
+            <!--slides images end-->
+
+<!------------------------------------------Auto navi starts--------------------------------------------------->
+            <div class="navigation-auto">
+              <div class="auto-btn1"></div>
+              <div class="auto-btn2"></div>
+              <div class="auto-btn3"></div>
+            </div>
+<!------------------------------------------Auto navi end------------------------------------------------------>
+
+<!-----------------------------------------Manual navi starts-------------------------------------------------->
+            <div class="navigation-manual">
+              <label for="radio1" class="manual-btn"></label>
+              <label for="radio2" class="manual-btn"></label>
+              <label for="radio3" class="manual-btn"></label> 
+            </div>
+            <!--Manual navi end-->  
+
+          </div>
+          <!--image slider end-->
+
+          <script type="text/javascript">
+          var counter = 1;
+          setInterval(function(){
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if(counter > 3){
+              counter = 1;
+              }
+              }, 5000);
+          </script>
+
+        </div>
+
+<!-------------------------------------------TEST R&D--------------------------------------------------------->
+    <section id="testresearch">
+      <div class="title-text">
+        <p>TEST RESEARCH & DEVELOPMENT</p>
+        <h1>Organizational Chart</h1>
+      </div>
+      <div class="logo2">
+          <img class="image-resize1" src="GRID.jpg">
+        </div>
+        <oc>
+          <li><a href="TP.pdf" target="blank">Test Probe</a></li>
+        </oc>
+        <oc0>
+          <li><a href="PCB.pdf" target="blank">PCB Design</a></li>
+        </oc0>
+        <oc1>
+          <li><a href="TB.pdf" target="blank">Test Box</a></li>
+        </oc1>
+        <oc3>
+          <li><a href="TSD.pdf" target="blank">Test Solution Development 1,2 and Support</a></li>
+        </oc3>
+  
+        <oc2>
+          <li><a href="PC.pdf" target="blank">Project Control</a></li>
+       
+        </oc2>
+  
+
+    </section>
+
+<!---------------------------------------------ABOUT----------------------------------------------------------->
+<section id="about">
+    <div class="about-text">
+      <p>ABOUT US</p>
+     </div>
+<article>
+    <div class="testrd">
+      <h1>Test R&D</h1>
+      <p>Responsible for the design, fabrication, assembly and<br> evaluation of all IC testing equipment including schematic <br>diagram, test board, test probe, test socket, PCB and test<br> program. Coordinates with  RK Test Development and Design <br>with  each project / device.</p>
+      <h2>Test Probe Department</h2>
+      <p>Responsible for the fabrication of Test Probe products<br> used in EDS-Wafer Testing, covering the primary functions <br>of design and production.</p>
+       <h3>PCB Design Department</h3>
+      <p>Responsible for the development of PCB for LSI Test box.</p>
+      <h4>Test Box Department</h4>
+      <p>Responsible for the assembly of test equipment hardware <br> and accessories used for wafer testing and final test processes.</p>
+    </div>
+    </article>
+<article>
+    <div class="testrd1">
+      <h1>Test Solution Department 1 & 2</h1>
+      <p>Responsible for the development of software and prototype <br> hardware to be used in testing of wafer and LSI finished products.</p>
+      <h2>Test Solution Department Support</h2>
+      <p>Responsible for the quality improvement in Test Development<br> process, including the education of Test Development <br> Engineers and standardization of Test Development Process.</p>
+       <h3>Project Control Department</h3>
+      <p>Responsible for the overall order-in and job-out of each project, <br>including 4M preparations and material inventory control.</p>
+    </div>
+    </article>
+</section>
+
+<!---------------------------------------------CONTACT US----------------------------------------------------------->
+<section id="contactus">
+    <div class="contactus-text">
+      <h3>CONTACT US</h3>
+    </div>
+</section>
+
+<!---------------------------------------------BACK TO TOP--------------------------------------------------------->
+<a class="gotopbtn" href="#"> <i class="fas fa-arrow-up"></i></a>
+
+</body>
+</html>
+

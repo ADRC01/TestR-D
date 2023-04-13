@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LSI Test Research and Development</title>
+  <link rel="stylesheet" type="text/css" href="css/style3.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+   <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+</head>
+
+<body>
+  
+    <header>
+      <title>Course Category</title>
+
+      <div class= "main">
+
+        <div class="logo">
+          <img src="ROHM_logo.png">
+        </div>
+<section id="home">
+        <div class="title">
+          <h0>ROHM ELECTRONICS PHILIPPINES INC.</h0>
+        </div>
+        </section>
+</div>
+</header>
+
+
+    <div id="navigation">
+      <nav>
+        <ul>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#">LOG-IN</a></li>
+          <li><a href="#testresearch">TEST R&D</a></li>
+          <li><a href="#about">ABOUT</a></li>    
+          <li><a href="#contactus">CONTACT US</a></li>
+        </ul>
+      </nav>
+    </div>
+
+        <fb>
+          <li><a href="watchvid.html" target="blank">WATCH VIDEO</a></li>
+        </fb>
+
+        <div class="slider">
+          <div class="slides">
+
+            <!--radio button start-->
+            <input type="radio" name="radio-btn" id="radio1"> 
+            <input type="radio" name="radio-btn" id="radio2"> 
+            <input type="radio" name="radio-btn" id="radio3"> 
+            <!--radio buton end-->
+
+            <!--slides images start-->
+            <div class="slide first">
+              <img src="REPI.jpg" alt="">
+            </div>  
+            <div class="slide">
+              <img src="TRD.png" alt="">
+            </div>
+            <div class="slide">
+              <img src="COCO.jpg" alt="">
+            </div>
+            <!--slides images end-->
+
+<!------------------------------------------Auto navi starts--------------------------------------------------->
+            <div class="navigation-auto">
+              <div class="auto-btn1"></div>
+              <div class="auto-btn2"></div>
+              <div class="auto-btn3"></div>
+            </div>
+<!------------------------------------------Auto navi end------------------------------------------------------>
+
+<!-----------------------------------------Manual navi starts-------------------------------------------------->
+            <div class="navigation-manual">
+              <label for="radio1" class="manual-btn"></label>
+              <label for="radio2" class="manual-btn"></label>
+              <label for="radio3" class="manual-btn"></label> 
+            </div>
+            <!--Manual navi end-->  
+
+          </div>
+          <!--image slider end-->
+
+          <script type="text/javascript">
+          var counter = 1;
+          setInterval(function(){
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if(counter > 3){
+              counter = 1;
+              }
+              }, 5000);
+          </script>
+
+        </div>
+
+<!-------------------------------------------TEST R&D--------------------------------------------------------->
+    <section id="testresearch">
+      <div class="title-text">
+        <p>TEST RESEARCH & DEVELOPMENT</p>
+        <h1>Organization Chart</h1>
+      </div>
+      <div class="logo2">
+          <img class="image-resize" src="OIP1.jpg">
+        </div>
+
+        <div class="container">
+
+    <h1 class="heading">our services</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="image/icon-1.png" alt="">
+            <h3>HTML 5</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, commodi?</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="image/icon-2.png" alt="">
+            <h3>CSS 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, commodi?</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="image/icon-3.png" alt="">
+            <h3>JavaScript</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, commodi?</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="image/icon-4.png" alt="">
+            <h3>SASS</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, commodi?</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="image/icon-5.png" alt="">
+            <h3>JQuery</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, commodi?</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="image/icon-6.png" alt="">
+            <h3>React.js</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, commodi?</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+    </div>
+
+</div>
+
+    </section>
+
+<!---------------------------------------------ABOUT----------------------------------------------------------->
+<section id="about">
+    <div class="about-text">
+      <p>ABOUT US</p>
+  </section>
+  </div>
+
+
+</section>
+
+<!---------------------------------------------CONTACT US----------------------------------------------------------->
+<section id="contactus">
+    <div class="contactus-text">
+      <h3>CONTACT US</h3>
+    </div>
+</section>
+
+<!---------------------------------------------BACK TO TOP--------------------------------------------------------->
+<a class="gotopbtn" href="#"> <i class="fas fa-arrow-up"></i></a>
+
+</body>
+</html>
+
